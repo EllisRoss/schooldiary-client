@@ -1,0 +1,51 @@
+.header {
+    grid-area: h;
+    background-color: #C28888;
+    width: 100%;
+    padding: 10px;
+}
+
+.wrapper {
+    display: grid;
+
+    grid-template-areas: "n l";
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 1fr;
+}
+
+.navbar {
+    grid-area: n;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+    margin: 10px;
+}
+
+.navbar a.active {
+    color: white;
+}
+
+.loginBlock {
+    text-align: center;
+    grid-area: l;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20pt;
+    color: white;
+}
+
+.loginBlock a {
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+    margin: 10px;
+}
+
+.loginBlock a.active {
+    color: white;
+}

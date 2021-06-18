@@ -1,0 +1,36 @@
+.dayOfWeek {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 20pt;
+}
+
+.subjectsWrapper {
+    display: grid;
+    grid-template-columns: 45px 200px 1fr 100px;
+}
+
+.number {
+    margin: 5px;
+    padding: 10px;
+    background-color: #ADADAD;
+}
+.subject {
+    margin: 5px;
+    padding: 10px;
+    background-color:#ADADAD;
+    text-align: center;
+}
+.homework {
+    margin: 5px;
+    padding: 10px;
+    background-color:#ADADAD;
+    text-align: center;
+}
+
+.marks {
+    margin: 5px;
+    padding: 10px;
+    background-color:#ADADAD;
+    text-align: center;
+}

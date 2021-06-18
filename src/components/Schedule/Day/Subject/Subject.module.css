@@ -1,0 +1,32 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 45px 200px 1fr 100px;
+}
+
+.index {
+    margin: 5px;
+    padding: 10px;
+    background-color: #BDBDBD;
+}
+.name {
+    margin: 5px;
+    padding: 10px;
+    background-color: #BDBDBD;
+    text-align: left;
+}
+.homework {
+    margin: 5px;
+    padding: 10px;
+    background-color: #BDBDBD;
+    text-align: left;
+}
+
+.marks {
+    margin: 5px;
+    padding: 10px;
+    background-color: #BDBDBD;
+}
+
+input {
+    background-color: #BDBDBD;
+}
